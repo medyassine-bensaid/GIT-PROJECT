@@ -1,5 +1,5 @@
-   q# GIT-PROJECT
-## for the owner **medyassine-bensaid**
+# GIT-PROJECT
+### for the owner **medyassine-bensaid**
 
 1. **Create the GitHub Repository:**
    - Go to GitHub and log in to your account.
@@ -69,3 +69,31 @@
      ```
      git push origin feature-branch-name
      ```
+Certainly, here's a simplified way to merge a feature branch into the main branch and resolve conflicts using command-line interface (CLI) commands:
+
+### For Both Repository Owner and Collaborators:
+
+** Merge into Main Branch and Resolve Conflicts**
+
+
+1. **Switch to the main branch:**
+   ```
+   git checkout main
+   ```
+
+2. **Merge your feature branch into the main branch:**
+   ```
+   git merge feature-branch
+   ```
+
+3. **Resolve any conflicts that may arise during the merge.**
+
+4. **Commit the merge with an appropriate message:**
+   ```
+   git commit -m "Merge feature-branch into main"
+   ```
+
+5. **Push the changes to the main branch on GitHub:**
+   ```
+   git push origin main
+   ```
