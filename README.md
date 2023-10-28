@@ -1,4 +1,4 @@
-# GIT-PROJECT
+   q# GIT-PROJECT
 ## for the owner **medyassine-bensaid**
 
 1. **Create the GitHub Repository:**
@@ -31,3 +31,41 @@
 `git push -u origin main`
 
    - The `-u` flag sets up a tracking relationship between your local `main` branch and the remote `main` branch on GitHub, which allows you to use `git push` and `git pull` without specifying the remote and branch every time.
+
+### For Collaborators:
+
+3. **Clone the GitHub Repository:**
+   - Make sure you have a GitHub account and have been added as a collaborator to the repository by the owner #DONE
+   - Clone the repository to your local machine using the following command:
+     ```
+     git clone  https://github.com/medyassine-bensaid/GIT-PROJECT.git
+     ```
+
+4. **Navigate to the Project Directory:**
+   - Change to the project directory:
+     ```bash
+     cd /src
+     ```
+
+5. **Create a New Branch:**
+   - Create a new branch from the `main` branch:
+     ```
+     git checkout -b feature-branch-name
+     ```
+
+6. **Add a Java Class:**
+   - Create or edit a Java class in your project directory using a code editor.
+   - Stage the changes for commit:
+     ```
+     git add <filename.java>
+     ```
+   - Commit your changes with a meaningful message:
+     ```
+     git commit -m "Add a new Java class"
+     ```
+
+7. **Push Changes to Your Branch:**
+   - Push your branch to the remote repository:
+     ```
+     git push origin feature-branch-name
+     ```
