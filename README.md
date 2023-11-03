@@ -87,13 +87,18 @@ Certainly, here's a simplified way to merge a feature branch into the main branc
    ```
 
 3. **Resolve any conflicts that may arise during the merge.**
+ ![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/512dcb24-e98f-4c93-934f-a249b2eeee95)
+![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/1fdbf1e1-d42c-4e27-9ecb-e567b7a5a3f1)
+![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/bd863480-72fa-4cd0-8049-712b9c84ecb6)
 
-4. **Commit the merge with an appropriate message:**
+
+  
+5. **Commit the merge with an appropriate message:**
    ```
    git commit -m "Merge feature-branch into main"
    ```
 
-5. **Push the changes to the main branch on GitHub:**
+6. **Push the changes to the main branch on GitHub:**
    ```
    git push origin main
    ```
