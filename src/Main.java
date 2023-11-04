@@ -25,7 +25,7 @@ public class Main {
         gestionEtudiant.trierEtudiantsParId();
 
         gestionEtudiant.displayEtudiants();
-// tri par nom
+        // tri des etudiants par nom 
         System.out.println("tri par nom");
         gestionEtudiant.trierEtudiantsParNom();
 
