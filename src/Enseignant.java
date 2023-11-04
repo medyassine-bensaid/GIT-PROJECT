@@ -61,6 +61,7 @@ public class  Enseignant implements Comparable< Enseignant>{
     public double calculeMoyenne() {
         if (scores.isEmpty()) {
             System.out.println("hello");
+            System.out.println("okay");
             return 0.0; 
         }
 
