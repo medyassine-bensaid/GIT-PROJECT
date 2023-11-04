@@ -1,15 +1,19 @@
+import java.util.List;
+
 public class  Enseignant implements Comparable< Enseignant>{
     private int id;
     private String nom;
     private String prenom;
-
+    private List<Double> scores;
+    
     public  Enseignant() {
     }
 
-    public  Enseignant(int id, String nom, String prenom) {
+    public  Enseignant(int id, String nom, String prenom, List<Double> scores) {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
+        this.scores = scores;
     }
 
     public int getId() {
@@ -52,5 +56,22 @@ public class  Enseignant implements Comparable< Enseignant>{
     @Override
     public int compareTo( Enseignant o) {
         return this.id-o.id;
+    }
+
+    public double calculeMoyenne() {
+        if (scores.isEmpty()) {
+            System.out.println("hello");
+            System.out.println("okay");
+            int a = 2;
+            System.out.println("haha");
+            return 0.0; 
+        }
+
+        double sum = 0.0;
+        for (double score : scores) {
+            sum += score;
+        }
+
+        return sum / scores.size();
     }
 }
