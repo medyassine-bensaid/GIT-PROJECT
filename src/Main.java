@@ -10,9 +10,11 @@ public class Main {
 
         GestionEtudiant gestionEtudiant = new GestionEtudiant();
 
-        gestionEtudiant.ajouterEtudiant(etudiant1);
-        gestionEtudiant.ajouterEtudiant(etudiant2);
+        
+     gestionEtudiant.ajouterEtudiant(etudiant2);
         gestionEtudiant.ajouterEtudiant(etudiant3);
+        gestionEtudiant.ajouterEtudiant(etudiant1);
+   
 
         System.out.println("Liste des étudiants :");
         gestionEtudiant.displayEtudiants();
