@@ -1,0 +1,56 @@
+public class School {
+    // Instance variables
+    private String name;
+    private int numberOfStudents;
+    private String location;
+    private int establishedYear;
+
+    // Constructor
+    public School(String name, int numberOfStudents, String location, int establishedYear) {
+        this.name = name;
+        this.numberOfStudents = numberOfStudents;
+        this.location = location;
+        this.establishedYear = establishedYear;
+    }
+
+    // Getter and setter methods
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getNumberOfStudents() {
+        return numberOfStudents;
+    }
+
+    public void setNumberOfStudents(int numberOfStudents) {
+        this.numberOfStudents = numberOfStudents;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public int getEstablishedYear() {
+        return establishedYear;
+    }
+
+    public void setEstablishedYear(int establishedYear) {
+        this.establishedYear = establishedYear;
+    }
+
+    // Method to display school information
+    public void displaySchoolInfo() {
+        System.out.println("School Name: " + name);
+        System.out.println("Number of Students: " + numberOfStudents);
+        System.out.println("Location: " + location);
+        System.out.println("Established Year: " + establishedYear);
+    }
+}
