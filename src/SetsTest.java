@@ -3,8 +3,10 @@ import java.util.Set;
  // by med yassine
 public class SetsTest {
     public static void main(String[] args) {
+
+        
         // Create some Etudiant objects
-        Etudiant etudiant1 = new Etudiant(1, "John", "Doe");
+        Etudiant etudiant1 = new Etudiant(1, "John", "bob");
         Etudiant etudiant2 = new Etudiant(2, "Alice", "Smith");
         Etudiant etudiant3 = new Etudiant(3, "Bob", "Johnson");
         Etudiant etudiant4 = new Etudiant(4, "Eva", "Brown");
@@ -39,5 +41,8 @@ public class SetsTest {
         for (Etudiant etudiant : etudiantSet) {
             System.out.println(etudiant);
         }
+
+        // this it
+
     }
 }
