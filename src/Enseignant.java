@@ -3,7 +3,7 @@ import java.util.List;
 public class  Enseignant implements Comparable< Enseignant>{
     private int id;
     private String nom;
-    private String prenom;
+    private String prenome;
     private List<Double> scores;
     
     public  Enseignant() {
