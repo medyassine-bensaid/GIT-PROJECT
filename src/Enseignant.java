@@ -2,6 +2,8 @@ public class  Enseignant implements Comparable< Enseignant>{
     private int id;
     private String nom;
     private String prenom;
+        private String cin;
+
 
     public  Enseignant() {
     }
@@ -10,6 +12,8 @@ public class  Enseignant implements Comparable< Enseignant>{
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
+                this.cin = cin;
+
     }
 
     public int getId() {
