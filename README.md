@@ -89,7 +89,6 @@ Certainly, here's a simplified way to merge a feature branch into the main branc
 3. **Resolve any conflicts that may arise during the merge.**
  ![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/512dcb24-e98f-4c93-934f-a249b2eeee95)
 ![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/1fdbf1e1-d42c-4e27-9ecb-e567b7a5a3f1)
-![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/bd863480-72fa-4cd0-8049-712b9c84ecb6)
 
 
   
@@ -102,3 +101,11 @@ Certainly, here's a simplified way to merge a feature branch into the main branc
    ```
    git push origin main
    ```
+**other commands**
+
+git stash : 
+![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/bad05d0f-1bf7-4faf-bae7-944f65cb5458)
+
+stash list 
+![image](https://github.com/medyassine-bensaid/GIT-PROJECT/assets/73800582/7a374360-e533-437c-8d8b-713aa018bb4b)
+
