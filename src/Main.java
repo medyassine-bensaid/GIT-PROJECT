@@ -1,6 +1,6 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-// Those are Mohamed Byoudhi changes 
+// Those are Mohamed Bayoudhi changes
 public class Main {
     public static void main(String[] args) {
 
@@ -27,7 +27,7 @@ public class Main {
         gestionEtudiant.trierEtudiantsParId();
 
         gestionEtudiant.displayEtudiants();
-// tri par nom
+        // tri des etudiants par nom 
         System.out.println("tri par nom");
         gestionEtudiant.trierEtudiantsParNom();
 
