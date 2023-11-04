@@ -62,6 +62,8 @@ public class  Enseignant implements Comparable< Enseignant>{
         if (scores.isEmpty()) {
             System.out.println("hello");
             System.out.println("okay");
+            int a = 2;
+            System.out.println("haha");
             return 0.0; 
         }
 
