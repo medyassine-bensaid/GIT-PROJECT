@@ -7,6 +7,7 @@ public class Main {
                 if (etudiants.size() >= 2) {
                     Etudiant etudiant1 = etudiants.get(0);
                     Etudiant etudiant2 = etudiants.get(1);
+                    Etudiant etudiant3 = etudiants.get(2);
             
                     int sumOfIds = etudiant1.getId() + etudiant2.getId();
                     System.out.println("Sum of IDs of the first two students: " + sumOfIds);
